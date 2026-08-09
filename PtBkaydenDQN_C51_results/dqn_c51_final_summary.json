@@ -1,23 +1,34 @@
 {
   "g=-10": {
-    "untuned": {
+    "baseline": {
+      "mean": -62.67033004760742,
+      "median": -40.8996467590332,
+      "std": 53.55213928222656,
+      "best": -6.304604530334473,
+      "worst": -207.82203674316406
+    },
+    "untuned_c51": {
       "mean": -62.30340576171875,
       "median": -44.035621643066406,
       "std": 52.15538024902344,
       "best": -0.18169957399368286,
       "worst": -200.23178100585938
     },
-    "tuned": {
+    "selected_c51": {
       "mean": -62.30340576171875,
       "median": -44.035621643066406,
       "std": 52.15538024902344,
       "best": -0.18169957399368286,
       "worst": -200.23178100585938
     },
-    "improvement": 0.0,
+    "c51_feature_gain": 0.3669242858886719,
+    "tuning_gain": 0.0,
+    "total_gain": 0.3669242858886719,
     "selected_trial": "Untuned",
     "gravity_label": "Anti-gravity",
-    "selected_config": {
+    "baseline_weight_path": "PtBkaydenDQN_C51_weights\\baseline_dqn\\baseline_dqn_gneg10.weights.h5",
+    "final_c51_weight_path": "PtBkaydenDQN_C51_weights\\final_selected\\c51_gneg10_final.weights.h5",
+    "selected_c51_config": {
       "episodes": 150,
       "gamma": 0.99,
       "epsilon": 1.0,
@@ -38,28 +49,38 @@
       "num_atoms": 51,
       "v_min": -2500.0,
       "v_max": 0.0
-    },
-    "final_weight_path": "PtBkaydenC51_weights\\final_selected\\c51_gneg10_final.weights.h5"
+    }
   },
   "g=0": {
-    "untuned": {
+    "baseline": {
+      "mean": -48.37454605102539,
+      "median": -34.36571502685547,
+      "std": 43.455650329589844,
+      "best": -1.2305102348327637,
+      "worst": -144.5634002685547
+    },
+    "untuned_c51": {
       "mean": -51.211483001708984,
       "median": -38.2214469909668,
       "std": 43.8792610168457,
       "best": -0.2395729273557663,
       "worst": -142.08033752441406
     },
-    "tuned": {
+    "selected_c51": {
       "mean": -48.65023422241211,
       "median": -37.41853713989258,
       "std": 41.670875549316406,
       "best": -0.7502015233039856,
       "worst": -136.57923889160156
     },
-    "improvement": 2.561248779296875,
+    "c51_feature_gain": -2.8369369506835938,
+    "tuning_gain": 2.561248779296875,
+    "total_gain": -0.27568817138671875,
     "selected_trial": "Compact_Support",
     "gravity_label": "Free-fall",
-    "selected_config": {
+    "baseline_weight_path": "PtBkaydenDQN_C51_weights\\baseline_dqn\\baseline_dqn_g0.weights.h5",
+    "final_c51_weight_path": "PtBkaydenDQN_C51_weights\\final_selected\\c51_g0_final.weights.h5",
+    "selected_c51_config": {
       "episodes": 150,
       "gamma": 0.99,
       "epsilon": 1.0,
@@ -80,28 +101,38 @@
       "num_atoms": 51,
       "v_min": -1500.0,
       "v_max": 0.0
-    },
-    "final_weight_path": "PtBkaydenC51_weights\\final_selected\\c51_g0_final.weights.h5"
+    }
   },
   "g=10": {
-    "untuned": {
+    "baseline": {
+      "mean": -172.74671936035156,
+      "median": -125.64877319335938,
+      "std": 109.80204772949219,
+      "best": -0.2247101217508316,
+      "worst": -444.24688720703125
+    },
+    "untuned_c51": {
       "mean": -183.08023071289062,
       "median": -126.00896453857422,
       "std": 135.1461639404297,
       "best": -2.8737900257110596,
       "worst": -586.0654907226562
     },
-    "tuned": {
+    "selected_c51": {
       "mean": -183.08023071289062,
       "median": -126.00896453857422,
       "std": 135.1461639404297,
       "best": -2.8737900257110596,
       "worst": -586.0654907226562
     },
-    "improvement": 0.0,
+    "c51_feature_gain": -10.333511352539062,
+    "tuning_gain": 0.0,
+    "total_gain": -10.333511352539062,
     "selected_trial": "Untuned",
     "gravity_label": "Default",
-    "selected_config": {
+    "baseline_weight_path": "PtBkaydenDQN_C51_weights\\baseline_dqn\\baseline_dqn_g10.weights.h5",
+    "final_c51_weight_path": "PtBkaydenDQN_C51_weights\\final_selected\\c51_g10_final.weights.h5",
+    "selected_c51_config": {
       "episodes": 150,
       "gamma": 0.99,
       "epsilon": 1.0,
@@ -122,28 +153,38 @@
       "num_atoms": 51,
       "v_min": -2500.0,
       "v_max": 0.0
-    },
-    "final_weight_path": "PtBkaydenC51_weights\\final_selected\\c51_g10_final.weights.h5"
+    }
   },
   "g=15": {
-    "untuned": {
+    "baseline": {
+      "mean": -563.9683227539062,
+      "median": -237.03460693359375,
+      "std": 627.9735717773438,
+      "best": -0.800218939781189,
+      "worst": -1694.5997314453125
+    },
+    "untuned_c51": {
       "mean": -230.7207489013672,
       "median": -224.94386291503906,
       "std": 157.055908203125,
       "best": -1.1392701864242554,
       "worst": -599.95068359375
     },
-    "tuned": {
+    "selected_c51": {
       "mean": -230.7207489013672,
       "median": -224.94386291503906,
       "std": 157.055908203125,
       "best": -1.1392701864242554,
       "worst": -599.95068359375
     },
-    "improvement": 0.0,
+    "c51_feature_gain": 333.24757385253906,
+    "tuning_gain": 0.0,
+    "total_gain": 333.24757385253906,
     "selected_trial": "Untuned",
     "gravity_label": "Supergravity",
-    "selected_config": {
+    "baseline_weight_path": "PtBkaydenDQN_C51_weights\\baseline_dqn\\baseline_dqn_g15.weights.h5",
+    "final_c51_weight_path": "PtBkaydenDQN_C51_weights\\final_selected\\c51_g15_final.weights.h5",
+    "selected_c51_config": {
       "episodes": 150,
       "gamma": 0.99,
       "epsilon": 1.0,
@@ -164,7 +205,6 @@
       "num_atoms": 51,
       "v_min": -2500.0,
       "v_max": 0.0
-    },
-    "final_weight_path": "PtBkaydenC51_weights\\final_selected\\c51_g15_final.weights.h5"
+    }
   }
 }
