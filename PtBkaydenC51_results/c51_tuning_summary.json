@@ -1,0 +1,170 @@
+{
+  "g=-10": {
+    "untuned": {
+      "mean": -62.30340576171875,
+      "median": -44.035621643066406,
+      "std": 52.15538024902344,
+      "best": -0.18169957399368286,
+      "worst": -200.23178100585938
+    },
+    "tuned": {
+      "mean": -62.30340576171875,
+      "median": -44.035621643066406,
+      "std": 52.15538024902344,
+      "best": -0.18169957399368286,
+      "worst": -200.23178100585938
+    },
+    "improvement": 0.0,
+    "selected_trial": "Untuned",
+    "gravity_label": "Anti-gravity",
+    "selected_config": {
+      "episodes": 150,
+      "gamma": 0.99,
+      "epsilon": 1.0,
+      "epsilon_min": 0.01,
+      "epsilon_decay": 0.98,
+      "hidden_size": 64,
+      "num_actions": 40,
+      "batch_size": 32,
+      "replay_memory_size": 10000,
+      "min_replay_memory": 1000,
+      "target_update_every": 1,
+      "learning_rate": 0.001,
+      "action_range": [
+        -2.0,
+        2.0
+      ],
+      "gravity": -10.0,
+      "num_atoms": 51,
+      "v_min": -2500.0,
+      "v_max": 0.0
+    },
+    "final_weight_path": "PtBkaydenC51_weights\\final_selected\\c51_gneg10_final.weights.h5"
+  },
+  "g=0": {
+    "untuned": {
+      "mean": -51.211483001708984,
+      "median": -38.2214469909668,
+      "std": 43.8792610168457,
+      "best": -0.2395729273557663,
+      "worst": -142.08033752441406
+    },
+    "tuned": {
+      "mean": -48.65023422241211,
+      "median": -37.41853713989258,
+      "std": 41.670875549316406,
+      "best": -0.7502015233039856,
+      "worst": -136.57923889160156
+    },
+    "improvement": 2.561248779296875,
+    "selected_trial": "Compact_Support",
+    "gravity_label": "Free-fall",
+    "selected_config": {
+      "episodes": 150,
+      "gamma": 0.99,
+      "epsilon": 1.0,
+      "epsilon_min": 0.01,
+      "epsilon_decay": 0.98,
+      "hidden_size": 64,
+      "num_actions": 40,
+      "batch_size": 32,
+      "replay_memory_size": 10000,
+      "min_replay_memory": 1000,
+      "target_update_every": 1,
+      "learning_rate": 0.0005,
+      "action_range": [
+        -2.0,
+        2.0
+      ],
+      "gravity": 0.0,
+      "num_atoms": 51,
+      "v_min": -1500.0,
+      "v_max": 0.0
+    },
+    "final_weight_path": "PtBkaydenC51_weights\\final_selected\\c51_g0_final.weights.h5"
+  },
+  "g=10": {
+    "untuned": {
+      "mean": -183.08023071289062,
+      "median": -126.00896453857422,
+      "std": 135.1461639404297,
+      "best": -2.8737900257110596,
+      "worst": -586.0654907226562
+    },
+    "tuned": {
+      "mean": -183.08023071289062,
+      "median": -126.00896453857422,
+      "std": 135.1461639404297,
+      "best": -2.8737900257110596,
+      "worst": -586.0654907226562
+    },
+    "improvement": 0.0,
+    "selected_trial": "Untuned",
+    "gravity_label": "Default",
+    "selected_config": {
+      "episodes": 150,
+      "gamma": 0.99,
+      "epsilon": 1.0,
+      "epsilon_min": 0.01,
+      "epsilon_decay": 0.98,
+      "hidden_size": 64,
+      "num_actions": 40,
+      "batch_size": 32,
+      "replay_memory_size": 10000,
+      "min_replay_memory": 1000,
+      "target_update_every": 1,
+      "learning_rate": 0.001,
+      "action_range": [
+        -2.0,
+        2.0
+      ],
+      "gravity": 10.0,
+      "num_atoms": 51,
+      "v_min": -2500.0,
+      "v_max": 0.0
+    },
+    "final_weight_path": "PtBkaydenC51_weights\\final_selected\\c51_g10_final.weights.h5"
+  },
+  "g=15": {
+    "untuned": {
+      "mean": -230.7207489013672,
+      "median": -224.94386291503906,
+      "std": 157.055908203125,
+      "best": -1.1392701864242554,
+      "worst": -599.95068359375
+    },
+    "tuned": {
+      "mean": -230.7207489013672,
+      "median": -224.94386291503906,
+      "std": 157.055908203125,
+      "best": -1.1392701864242554,
+      "worst": -599.95068359375
+    },
+    "improvement": 0.0,
+    "selected_trial": "Untuned",
+    "gravity_label": "Supergravity",
+    "selected_config": {
+      "episodes": 150,
+      "gamma": 0.99,
+      "epsilon": 1.0,
+      "epsilon_min": 0.01,
+      "epsilon_decay": 0.98,
+      "hidden_size": 64,
+      "num_actions": 40,
+      "batch_size": 32,
+      "replay_memory_size": 10000,
+      "min_replay_memory": 1000,
+      "target_update_every": 1,
+      "learning_rate": 0.001,
+      "action_range": [
+        -2.0,
+        2.0
+      ],
+      "gravity": 15.0,
+      "num_atoms": 51,
+      "v_min": -2500.0,
+      "v_max": 0.0
+    },
+    "final_weight_path": "PtBkaydenC51_weights\\final_selected\\c51_g15_final.weights.h5"
+  }
+}
