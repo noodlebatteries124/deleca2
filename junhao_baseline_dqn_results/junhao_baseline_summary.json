@@ -1,0 +1,34 @@
+{
+  "g=-10": {
+    "gravity": -10,
+    "mean_return": -189.15528869628906,
+    "std_return": 259.142333984375,
+    "best_return": -2.8914928436279297,
+    "worst_return": -1336.26318359375,
+    "final_10_episode_average": -113.51225280761719
+  },
+  "g=0": {
+    "gravity": 0,
+    "mean_return": -228.89935302734375,
+    "std_return": 254.93438720703125,
+    "best_return": -6.168637275695801,
+    "worst_return": -1170.7132568359375,
+    "final_10_episode_average": -65.81480407714844
+  },
+  "g=10": {
+    "gravity": 10,
+    "mean_return": -865.036376953125,
+    "std_return": 349.4833068847656,
+    "best_return": -251.61532592773438,
+    "worst_return": -1750.446044921875,
+    "final_10_episode_average": -574.8887939453125
+  },
+  "g=15": {
+    "gravity": 15,
+    "mean_return": -1260.3822021484375,
+    "std_return": 160.3091278076172,
+    "best_return": -876.5193481445312,
+    "worst_return": -1763.95263671875,
+    "final_10_episode_average": -1130.7647705078125
+  }
+}

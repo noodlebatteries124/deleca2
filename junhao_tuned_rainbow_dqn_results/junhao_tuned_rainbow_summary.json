@@ -1,0 +1,50 @@
+{
+  "g=0": {
+    "mean_return": -80.18962097167969,
+    "std_return": 146.79591369628906,
+    "best_return": -1.1161760091781616,
+    "worst_return": -1034.8150634765625,
+    "final_10_episode_average": -38.750038146972656,
+    "mean_episode_length": 200.0,
+    "mean_loss": 0.0008553767340914853,
+    "mean_max_q": -1.7408299571686112,
+    "mean_upright_percentage": 82.41,
+    "mean_td_error": 0.06252829409815053
+  },
+  "g=-10": {
+    "mean_return": -69.75210571289062,
+    "std_return": 92.7933578491211,
+    "best_return": -1.0226531028747559,
+    "worst_return": -649.1075439453125,
+    "final_10_episode_average": -35.11977005004883,
+    "mean_episode_length": 200.0,
+    "mean_loss": 0.0006113426554380654,
+    "mean_max_q": -2.033636783917745,
+    "mean_upright_percentage": 85.84,
+    "mean_td_error": 0.05780232949809708
+  },
+  "g=10": {
+    "mean_return": -624.0675048828125,
+    "std_return": 445.6602783203125,
+    "best_return": -12.442811012268066,
+    "worst_return": -1806.086181640625,
+    "final_10_episode_average": -173.64907836914062,
+    "mean_episode_length": 200.0,
+    "mean_loss": 0.016614040087492364,
+    "mean_max_q": -23.555783824853474,
+    "mean_upright_percentage": 37.24333333333333,
+    "mean_td_error": 0.6417833394255452
+  },
+  "g=15": {
+    "mean_return": -809.2724609375,
+    "std_return": 511.76824951171875,
+    "best_return": -2.19092059135437,
+    "worst_return": -1829.58349609375,
+    "final_10_episode_average": -260.9071044921875,
+    "mean_episode_length": 200.0,
+    "mean_loss": 0.026526205025431904,
+    "mean_max_q": -29.926926877179746,
+    "mean_upright_percentage": 35.873333333333335,
+    "mean_td_error": 1.1034548180230008
+  }
+}
